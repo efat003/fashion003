@@ -1,0 +1,50 @@
+{% load static %}
+
+<section class="bg">
+  <div class="home">
+    <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="box" style="background-image: url('{% static "banner/05.jpg" %}');">
+            <div class="content">
+              <span>Upto 75% off</span>
+              <h3>Discover and <br> sale Special Offer <br> Fashion</h3>
+              <a href="#" class="btn">Order Now!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background-image: url('{% static "banner/01.png" %}');">
+            <div class="content">
+              <span>Upto 75% off</span>
+              <h3>Discover and <br> sale Special Offer <br> Fashion</h3>
+              <a href="#" class="btn">Order Now!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box" style="background-image: url('{% static "banner/04.jpg" %}');">
+            <div class="content">
+              <span>Upto 75% off</span>
+              <h3>Discover and <br> sale Special Offer <br> Fashion</h3>
+              <a href="#" class="btn">Order Now!</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section_container ins_container" id="ins">
+  <div class="ins_flex">
+    {% for i in "001,002,003,004,005,006,007,008,009".split(',') %}
+      <img src="{% static 'image/'|add:i|add:'.jpg' %}" alt="" />
+    {% endfor %}
+  </div>
+</section>

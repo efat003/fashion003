@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Website</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    
+    <!-- Remix Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.css" rel="stylesheet">
+    
+    <!-- Swiper JS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+        <a href="" class="logo">f-003</a>
+
+        <!-- In your navbar -->
+<nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#product">Product</a>
+    <a href="mens.html">Men</a>
+    <a href="womens.html">Women</a>
+    <a href="shoes.html">Shoes</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+        <div class="nav-icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div id="menu-toggle" class="fas fa-bars"></div>
+        </div>
+    </div>
+
+    
+  
+<div class="popup-overlay" id="popup-overlay"></div>
+
+<!-- Search Popup -->
+<div class="icon-popup" id="search-popup">
+  <h3>Search Products</h3>
+  <input type="text" placeholder="What are you looking for?">
+  <button><i class="fas fa-search"></i> Search</button>
+  <span class="close-popup">&times;</span>
+</div>
+
+<!-- User Popup -->
+<div class="icon-popup" id="user-popup">
+  <h3>Account</h3>
+  <button><i class="fas fa-sign-in-alt"></i> Login</button>
+  <button><i class="fas fa-user-plus"></i> Register</button>
+  <span class="close-popup">&times;</span>
+</div>
+
+<!-- Cart Popup -->
+<div class="icon-popup" id="cart-popup">
+  <h3>Your Cart</h3>
+  <div class="cart-items">
+    <p>Your cart is empty</p>
+  </div>
+  <button><i class="fas fa-shopping-bag"></i> View Cart</button>
+  <span class="close-popup">&times;</span>
+</div>
+    
+    
+
+
+</header>
+<section class="bg">
+    <div class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box" style="background: url('banner/05.jpg');">
+                        <div class="content">
+                            <span>Upto 75% off</span>
+                            <h3>Discover and <br> sale Special Offer <br> Fashion</h3>
+                            <a href="#" class="btn">Order Now!</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="swiper-slide">
+                    <div class="box" style="background: url('banner/01.png');">
+                        <div class="content">
+                            <span>Upto 75% off</span>
+                            <h3>Discover and <br> sale Special Offer <br> Fashion</h3>
+                            <a href="#" class="btn">Order Now!</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="swiper-slide">
+                    <div class="box" style="background: url('banner/04.jpg');">
+                        <div class="content">
+                            <span>Upto 75% off</span>
+                            <h3>Discover and <br> sale Special Offer <br> Fashion</h3>
+                            <a href="#" class="btn">Order Now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section_container ins_container" id="ins">
+  <div class="ins_flex">
+    <img src="image/001.jpg" alt="" />
+    <img src="image/002.jpg" alt="" />
+    <img src="image/003.jpg" alt="" />
+    <img src="image/004.jpg" alt="" />
+    <img src="image/005.jpg" alt="" />
+    <img src="image/006.jpg" alt="" />
+    <img src="image/007.jpg" alt="" />
+    <img src="image/008.jpg" alt="" />
+    <img src="image/009.jpg" alt="" />
+  </div>
+</section>
+
+
+<!-- Add Swiper JS and your custom JS at the end -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+            <!--product-->
+
+
+            <section class="sell" id="product">
+    <h1 class="heading">Our Best Products</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="icons">
+                <a href="order.html" class="btn">More Details!</a>
+            </div>
+            <div class="image">
+                <img src="image/001.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>Spread Collor Shirt</h4>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+        </div>
+         <div class="box">
+            <div class="icons">
+                <a href="order.html" class="btn">More Details!</a>
+            </div>
+            <div class="image">
+                <img src="image/002.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>Spread Collor Shirt</h4>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+        </div>
+         <div class="box">
+            <div class="icons">
+                <a href="order.html" class="btn">More Details!</a>
+            </div>
+            <div class="image">
+                <img src="image/003.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>Spread Collor Shirt</h4>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+        </div>
+         <div class="box">
+            <div class="icons">
+                <a href="order.html" class="btn">More Details!</a>
+            </div>
+            <div class="image">
+                <img src="image/004.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>Spread Collor Shirt</h4>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+        </div>
+         <div class="box">
+            <div class="icons">
+                <a href="order.html" class="btn">More Details!</a>
+            </div>
+            <div class="image">
+                <img src="image/005.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>Spread Collor Shirt</h4>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+        </div>
+         <div class="box">
+            <div class="icons">
+                <a href="order.html" class="btn">More Details!</a>
+            </div>
+            <div class="image">
+                <img src="image/006.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>Spread Collor Shirt</h4>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+        </div>
+         <div class="box">
+            <div class="icons">
+                <a href="order.html" class="btn">More Details!</a>
+            </div>
+            <div class="image">
+                <img src="image/007.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>Spread Collor Shirt</h4>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+        </div>
+         <div class="box">
+            <div class="icons">
+                <a href="order.html" class="btn">More Details!!</a>
+            </div>
+            <div class="image">
+                <img src="image/008.jpg" alt="">
+            </div>
+            <div class="content">
+                <h4>Spread Collor Shirt</h4>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--banner-->
+    <section class="banner-container">
+    <div class="banner">
+        <img src="image/12.jpg" alt="">
+        <div class="content">
+            <span>40% Off</span>
+            <h3>Limited Offer</h3>
+            <a href="order.html" class="btn">Order Now!</a>
+        </div>
+    </div>
+     <div class="banner">
+        <img src="image/09.jpg" alt="">
+        <div class="content">
+            <span>40% Off</span>
+            <h3>Limited Offer</h3>
+            <a href="order.html" class="btn">Order Now!</a>
+        </div>
+    </div>
+     <div class="banner">
+        <img src="image/11.jpg" alt="">
+        <div class="content">
+            <span>40% Off</span>
+            <h3>Limited Offer</h3>
+            <a href="order.html" class="btn">Order Now!</a>
+        </div>
+    </div>
+</section>
+
+<section class="sell" style="background-color: #e3e7f3;">
+    <h1 class="heading">Best Sell</h1>
+    <div class="box-container">
+        <div class="box">
+             <div class="icons">
+                <a href="order.html" class="btn">More Details!!</a>
+            </div>
+            <div class="image" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                <img src="image/06.jpg" alt="" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+            </div>
+            <div class="content">
+                <h4>Shirt Collection</h4>
+            </div>
+        </div>
+        <div class="box">
+             <div class="icons">
+                <a href="order.html" class="btn">More Details!!</a>
+            </div>
+            <div class="image" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                <img src="image/15.jpg" alt="" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+            </div>
+            <div class="content">
+                <h4>Shirt Collection</h4>
+            </div>
+        </div>
+        <div class="box">
+             <div class="icons">
+                <a href="order.html" class="btn">More Details!!</a>
+            </div>
+            <div class="image" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                <img src="image/16.jpg" alt="" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+            </div>
+            <div class="content">
+                <h4>Shirt Collection</h4>
+            </div>
+        </div>
+        <div class="box">
+             <div class="icons">
+                <a href="order.html" class="btn">More Details!!</a>
+            </div>
+            <div class="image" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                <img src="image/17.jpg" alt="" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+            </div>
+            <div class="content">
+                <h4>Shirt Collection</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Promotion Banner with Working Countdown -->
+<section class="time-banner" style="background-color: #f3f3f3;">
+    <div class="time" style="background: url(banner/03.jpg) center center; background-size: cover;">
+        <div class="insidemain">
+            <br>
+            <div class="title enddate">
+                <span>Exclusive Offer</span><br>
+                <h2 id="head">20 February 2025 10:00am</h2>
+            </div>
+        </div>
+        <div class="ing">
+            <div class="infield">
+                <input type="text" id="days" name="" readonly><br>
+                <h3>Days</h3>
+            </div>
+            <div class="infield">
+                <input type="text" id="hours" name="" readonly><br>
+                <h3>Hours</h3>
+            </div>
+            <div class="infield">
+                <input type="text" id="minutes" name="" readonly><br>
+                <h3>Mn</h3>
+            </div>
+            <div class="infield">
+                <input type="text" id="seconds" name="" readonly><br>
+                <h3>Sec</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section -->
+    <!-- Registration Offer -->
+    <section class="registration-offer">
+        <div class="container">
+            <h2>Complete Registration And Get 30% Discount</h2>
+            <p>Sign up for our newsletter and get exclusive offers and updates</p>
+            <a href="#" class="btn">Register Now</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Information</h2>
+                <p>Get in touch with us for any queries or support</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Address</h3>
+                    <p>Lorem Ipsum, Date 06 Amit Connecticut</p>
+                    <p>Adjusting ESL ESL Creditors, Tweetx St Fevere</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>drmahw0007@gmail.com</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone No.</h3>
+                    <p>H000000000</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Opening Hours</h3>
+                    <p>Sat - Tue: 8:00 AM - 6:00 PM</p>
+                    <p>Sat - Tue: 9:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Fashion Store</h3>
+                    <p>We offer the latest fashion trends for men and women. Quality products at affordable prices.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Shipping Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates</p>
+                    <form>
+                        <input type="email" placeholder="Your Email" style="padding: 10px; width: 100%; margin-bottom: 10px; border-radius: 5px; border: none;">
+                        <button type="submit" style="background: #d32f2f; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; width: 100%;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Fashion Store. All Rights Reserved. | DMI 007</p>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Collection | Fashion003</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shoes.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Fashion003</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="mens.html">Men</a>
+            <a href="womens.html">Women</a>
+            <a href="shoes.html" class="active">Shoes</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+
+    <section class="shoes-hero">
+        <div class="hero-content">
+            <h1>Footwear Collection</h1>
+            <p>Step out in style with our premium shoes</p>
+        </div>
+    </section>
+
+    <section class="shoes-collection">
+        <div class="container">
+            <div class="section-header">
+                <h2>All Shoes</h2>
+                <div class="filter-options">
+                    <select id="shoe-category">
+                        <option value="all">All Categories</option>
+                        <option value="sneakers">Sneakers</option>
+                        <option value="boots">Boots</option>
+                        <option value="sandals">Sandals</option>
+                        <option value="formal">Formal</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="shoes-grid">
+                <!-- Shoe Product 1 -->
+                <div class="shoe-card" data-category="sneakers">
+                    <div class="shoe-image">
+                        <img src="images/shoes/sneaker1.jpg" alt="Premium Sneakers">
+                        <span class="new-tag">New</span>
+                    </div>
+                    <div class="shoe-info">
+                        <h3><a href="shoe-detail.html">Urban Runner Sneakers</a></h3>
+                        <div class="price">$89.99</div>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- Shoe Product 2 -->
+                <div class="shoe-card" data-category="boots">
+                    <div class="shoe-image">
+                        <img src="images/shoes/boot1.jpg" alt="Leather Boots">
+                        <span class="sale-tag">Sale</span>
+                    </div>
+                    <div class="shoe-info">
+                        <h3><a href="shoe-detail.html">Classic Leather Boots</a></h3>
+                        <div class="price">$129.99 <del>$159.99</del></div>
+                        <a href="#" class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!-- Add more shoe products -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- Your footer content -->
+    </footer>
+
+    <script src="js/shoes.js"></script>
+</body>
+</html>

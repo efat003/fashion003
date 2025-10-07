@@ -1,0 +1,58 @@
+{% load static %}
+
+<header class="header">
+    <div class="header-container">
+        <a href="" class="logo">f-003</a>
+
+        <!-- In your navbar -->
+<nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#product">Product</a>
+    <a href="mens.html">Men</a>
+    <a href="womens.html">Women</a>
+    <a href="shoes.html">Shoes</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+        <div class="nav-icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <div id="menu-toggle" class="fas fa-bars"></div>
+        </div>
+    </div>
+
+    
+  
+<div class="popup-overlay" id="popup-overlay"></div>
+
+<!-- Search Popup -->
+<div class="icon-popup" id="search-popup">
+  <h3>Search Products</h3>
+  <input type="text" placeholder="What are you looking for?">
+  <button><i class="fas fa-search"></i> Search</button>
+  <span class="close-popup">&times;</span>
+</div>
+
+<!-- User Popup -->
+<div class="icon-popup" id="user-popup">
+  <h3>Account</h3>
+  <button><i class="fas fa-sign-in-alt"></i> Login</button>
+  <button><i class="fas fa-user-plus"></i> Register</button>
+  <span class="close-popup">&times;</span>
+</div>
+
+<!-- Cart Popup -->
+<div class="icon-popup" id="cart-popup">
+  <h3>Your Cart</h3>
+  <div class="cart-items">
+    <p>Your cart is empty</p>
+  </div>
+  <button><i class="fas fa-shopping-bag"></i> View Cart</button>
+  <span class="close-popup">&times;</span>
+</div>
+    
+    
+
+
+</header> 
